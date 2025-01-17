@@ -1,7 +1,9 @@
 
 # 🎭 Playwright PDF Examples
 
-Welcome to the **Playwright PDF Examples** repository! Here, you'll find practical examples of how to generate
+Welcome to the **Playwright PDF Examples** repository! 
+
+Here, you'll find practical examples of how to generate
 high-quality PDFs using Playwright. 
 
 ---
@@ -15,8 +17,8 @@ high-quality PDFs using Playwright.
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
 </div>
 
-The **Invoice Generator** demonstrates how to create a fully functional, high-quality invoice PDF using Playwright, Node.js, and EJS. By combining these, you can generate dynamic, customizable PDFs from HTML templates with ease.
-
+- The **Invoice Generator** demonstrates how to create a fully functional, high-quality invoice PDF using **Playwright**, **Node.js**, and **EJS** templates.  
+- EJS templates are essentially HTML files with placeholders for dynamic content. By combining these technologies, you can generate dynamic, customizable PDFs from HTML templates with ease.
 
 ### 🎨 Example Output
 
@@ -39,19 +41,19 @@ invoice-generator/
 
 ### 🚀 How to Run the Example
 
-#### 1️⃣ Clone the Repository
+#### 1. Clone the Repository
 
 ```plaintext
 git clone https://github.com/pdfbolt/playwright-examples.git
 ```
 
-#### 2️⃣ Navigate to the Invoice Generator Directory
+#### 2. Navigate to the Invoice Generator Directory
 
 ```plaintext
 cd invoice-generator
 ```
 
-#### 3️⃣ Install Dependencies
+#### 3. Install Dependencies
 
 Ensure you have Node.js installed, then install the necessary dependencies:
 
@@ -59,24 +61,26 @@ Ensure you have Node.js installed, then install the necessary dependencies:
 npm install
 ```
 
-#### 4️⃣ Run the Invoice Generator Script
+#### 4. Run the Invoice Generator Script
 
 ```plaintext
 node generate-invoice.js
 ```
 
-#### 5️⃣ View the Output
+#### 5. View the Output
 
-After running the script, find the generated PDF in your project directory:
+After running the script, the PDF will be saved in `invoice-generator` directory as:
 
 ```plaintext
 invoice-<timestamp>.pdf
 ```
 
-### 📖 Learn More: Full Tutorial
+[//]: # (### 📖 Learn More: Full Tutorial)
 
-For a detailed walkthrough of this example, check out the accompanying article:
-[How to Generate PDFs in 2025](https://pdfbolt.com/blog/how-to-generate-pdfs-in-2025)
+[//]: # ()
+[//]: # (For a detailed walkthrough of this example, check out the accompanying article:)
+
+[//]: # ([How to Generate PDFs in 2025]&#40;https://pdfbolt.com/blog/how-to-generate-pdfs-in-2025&#41;)
 
 ---
 
