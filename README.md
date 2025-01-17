@@ -17,6 +17,8 @@ high-quality PDFs using Playwright.
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
 </div>
 
+<br />
+
 - The **Invoice Generator** demonstrates how to create a fully functional, high-quality invoice PDF using **Playwright**, **Node.js**, and **EJS** templates.  
 - EJS templates are essentially HTML files with placeholders for dynamic content. By combining these technologies, you can generate dynamic, customizable PDFs from HTML templates with ease.
 
