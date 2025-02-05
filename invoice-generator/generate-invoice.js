@@ -1,6 +1,6 @@
 const ejs = require('ejs');
 const fs = require('fs');
-const { chromium } = require('playwright');
+const {chromium} = require('playwright');
 const path = require('path');
 
 // Load invoice data from the JSON file
@@ -19,11 +19,16 @@ const invoiceData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'inv
         const page = await browser.newPage();
 
         // Load the rendered HTML into the browser
-        await page.setContent(html, { waitUntil: 'load' });
+        await page.setContent(html, {waitUntil: 'load'});
 
         // Generate the PDF and save it with a timestamped filename
         const pdfPath = `invoice-${timestamp}.pdf`;
-        await page.pdf({ path: pdfPath, format: 'A4', printBackground: true });
+        await page.pdf({
+            path: pdfPath,
+            format: 'A4',
+            printBackground: true
+            // Additional parameters can be added here
+        });
 
         await browser.close();
         console.log(`PDF successfully created at: ${pdfPath}`);
